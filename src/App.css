@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+
+.Hero-Image {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .1), rgba(0, 0, 0, .2));
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+.Hero-Image:before {
+  background: linear-gradient(to bottom, rgba(0,0,0,.2), rgba(0,0,0,.5));
+ content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 50px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
